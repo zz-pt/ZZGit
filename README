@@ -1,0 +1,13 @@
+An cross platform application that builds on Qt 5.2.0 (x64) Framework with CMake 2.8.12
+
+=== Windows Build (x64) ===
+(1) Need Visual Studio 2012 installed
+(2) Modify UDE\CMakeLists.txt to point to the correct Qt5.2.0 directory
+(3) Go to UDE folder and run build.bat to generate Visual Studio solution UDE\build_vs2012_x64\UDE.sln
+
+=== Linux Build (x64) ===
+(1) Modify UDE/linuxDebugBuild.sh (or UDE/linuxReleaseBuild.sh) for Qt5.2.0 and CMake 2.8.12 path
+(2) Go to UDE/ and run the .sh (e.g.: . ./linuxDebugBuild.sh) to generate make project under linux_debug or linux_release
+(3) Do "make" under the created project directory (e.g.: cd linux_debug; make   
+
+
